@@ -7,9 +7,11 @@
 //
 
 #import "HSYLogoinRegisterController.h"
-
+#import "HSYTextField.h"
+#import "UITextField+HSYTextField.h"
 @interface HSYLogoinRegisterController ()
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *loginLeading;
+
 
 @end
 
@@ -27,8 +29,27 @@
 - (IBAction)close:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+
+
 - (IBAction)logoinRegister:(UIButton *)sender {
-    self.loginLeading.constant =  -self.view.width;
+
+    
+    sender.selected = !sender.selected;
+    if (sender.selected) {
+        self.loginLeading.constant =  -self.view.width;
+        [UIView animateWithDuration:0.5 delay:0 usingSpringWithDamping:0.7 initialSpringVelocity:1 options:0 animations:^{
+            [self.view layoutIfNeeded];
+        } completion:nil];
+
+    }else{
+        
+        self.loginLeading.constant =  0;
+        [UIView animateWithDuration:0.5 delay:0 usingSpringWithDamping:0.7 initialSpringVelocity:1 options:0 animations:^{
+            [self.view layoutIfNeeded];
+        } completion:nil];
+
+        
+    }
 }
 
 /*

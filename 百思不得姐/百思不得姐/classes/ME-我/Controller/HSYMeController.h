@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HSYMeController : UIViewController
+@interface HSYMeController : UITableViewController
 
 @end

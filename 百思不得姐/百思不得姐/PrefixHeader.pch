@@ -17,6 +17,7 @@
 #ifdef __OBJC__
 #import "UIView+Frame.h"
 #import "UIBarButtonItem+HSYExtension.h"
+#import "HSYTCommenCons.h"
 /*** 日志 ***/
 #ifdef DEBUG
 #define LGLog(...) NSLog(__VA_ARGS__)
