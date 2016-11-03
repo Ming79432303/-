@@ -12,7 +12,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    //控制器是懒加载的
+    //最后是在控制器内部设置颜色
+    //在碗面设置背景眼self.view.backgroundColor会调用viewDidLoad方法
     self.view.backgroundColor = CommonBgColor;
     
     // 标题
@@ -22,6 +24,7 @@
     
     
 }
+
 
 - (void)tagClick
 {

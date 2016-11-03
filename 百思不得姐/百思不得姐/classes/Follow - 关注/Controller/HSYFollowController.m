@@ -7,6 +7,7 @@
 //
 
 #import "HSYFollowController.h"
+#import "HSYLogoinRegisterController.h"
 
 @implementation HSYFollowController
 - (void)viewDidLoad {
@@ -19,11 +20,14 @@
     // 左边
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"friendsRecommentIcon" highImage:@"friendsRecommentIcon-click" target:self action:@selector(followClick)];
 }
+- (IBAction)loginRegister:(id)sender {
+     [self presentViewController:[[HSYLogoinRegisterController alloc] init] animated:YES completion:nil];
+}
 
 - (void)followClick
 {
     LGLogFunc
-    
+   
     
 }
 

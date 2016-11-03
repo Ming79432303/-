@@ -23,6 +23,10 @@
 		482053901DC972C500277F7B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820538F1DC972C500277F7B /* UIView+Frame.m */; };
 		482053931DC973F200277F7B /* UIBarButtonItem+HSYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 482053921DC973F200277F7B /* UIBarButtonItem+HSYExtension.m */; };
 		482053971DC98A7C00277F7B /* HSYSetingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 482053961DC98A7C00277F7B /* HSYSetingController.m */; };
+		482B94F51DCB181100516988 /* HSYFollowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 482B94F41DCB181100516988 /* HSYFollowController.xib */; };
+		482B94F91DCB1C4600516988 /* HSYLogoinRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 482B94F71DCB1C4600516988 /* HSYLogoinRegisterController.m */; };
+		482B94FA1DCB1C4600516988 /* HSYLogoinRegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 482B94F81DCB1C4600516988 /* HSYLogoinRegisterController.xib */; };
+		482B94FD1DCB251700516988 /* HSYLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 482B94FC1DCB251700516988 /* HSYLoginButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +81,12 @@
 		482053941DC9773600277F7B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../../PrefixHeader.pch; sourceTree = "<group>"; };
 		482053951DC98A7C00277F7B /* HSYSetingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSYSetingController.h; sourceTree = "<group>"; };
 		482053961DC98A7C00277F7B /* HSYSetingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSYSetingController.m; sourceTree = "<group>"; };
+		482B94F41DCB181100516988 /* HSYFollowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSYFollowController.xib; sourceTree = "<group>"; };
+		482B94F61DCB1C4600516988 /* HSYLogoinRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSYLogoinRegisterController.h; sourceTree = "<group>"; };
+		482B94F71DCB1C4600516988 /* HSYLogoinRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSYLogoinRegisterController.m; sourceTree = "<group>"; };
+		482B94F81DCB1C4600516988 /* HSYLogoinRegisterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSYLogoinRegisterController.xib; sourceTree = "<group>"; };
+		482B94FB1DCB251700516988 /* HSYLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSYLoginButton.h; sourceTree = "<group>"; };
+		482B94FC1DCB251700516988 /* HSYLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSYLoginButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +232,7 @@
 			children = (
 				482053761DC96F6C00277F7B /* HSYFollowController.h */,
 				482053771DC96F6C00277F7B /* HSYFollowController.m */,
+				482B94F41DCB181100516988 /* HSYFollowController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -343,6 +354,8 @@
 		482053711DC96DDB00277F7B /* VIew */ = {
 			isa = PBXGroup;
 			children = (
+				482B94FB1DCB251700516988 /* HSYLoginButton.h */,
+				482B94FC1DCB251700516988 /* HSYLoginButton.m */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -356,6 +369,9 @@
 				482053831DC96FCF00277F7B /* HSYNavigationController.m */,
 				482053851DC96FEE00277F7B /* HSYTabBar.h */,
 				482053861DC96FEE00277F7B /* HSYTabBar.m */,
+				482B94F61DCB1C4600516988 /* HSYLogoinRegisterController.h */,
+				482B94F71DCB1C4600516988 /* HSYLogoinRegisterController.m */,
+				482B94F81DCB1C4600516988 /* HSYLogoinRegisterController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -465,7 +481,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4820533A1DC969BC00277F7B /* LaunchScreen.storyboard in Resources */,
+				482B94FA1DCB1C4600516988 /* HSYLogoinRegisterController.xib in Resources */,
 				482053371DC969BC00277F7B /* Assets.xcassets in Resources */,
+				482B94F51DCB181100516988 /* HSYFollowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +509,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				482053841DC96FCF00277F7B /* HSYNavigationController.m in Sources */,
+				482B94F91DCB1C4600516988 /* HSYLogoinRegisterController.m in Sources */,
+				482B94FD1DCB251700516988 /* HSYLoginButton.m in Sources */,
 				4820537B1DC96F8100277F7B /* HSYMeController.m in Sources */,
 				4820538A1DC9719A00277F7B /* AppDelegate.m in Sources */,
 				4820532C1DC969BC00277F7B /* main.m in Sources */,
