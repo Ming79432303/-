@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HSYWebController">
+            <connections>
+                <outlet property="back" destination="JBi-oT-laK" id="pii-tl-w2h"/>
+                <outlet property="next" destination="lM1-W3-tjz" id="tVt-mh-U2g"/>
+                <outlet property="reload" destination="n3v-Ef-SkC" id="PQY-ou-Wan"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="Qgi-od-Tg1" id="Gut-tE-iwO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ks1-tO-xSW">
+                    <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="YbN-mq-poT"/>
+                    </constraints>
+                    <items>
+                        <barButtonItem image="后退" style="plain" id="JBi-oT-laK">
+                            <connections>
+                                <action selector="back:" destination="-1" id="2tr-1k-0mx"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem image="前进" style="plain" id="lM1-W3-tjz">
+                            <connections>
+                                <action selector="next:" destination="-1" id="wS5-0H-4j5"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="WEA-YP-1Mu"/>
+                        <barButtonItem title="刷新" style="plain" id="n3v-Ef-SkC">
+                            <connections>
+                                <action selector="load:" destination="-1" id="OmO-R5-bWH"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qgi-od-Tg1">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </webView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Qgi-od-Tg1" secondAttribute="trailing" id="5Qo-1Y-RPw"/>
+                <constraint firstItem="ks1-tO-xSW" firstAttribute="top" secondItem="Qgi-od-Tg1" secondAttribute="bottom" id="Ds7-pL-wjt"/>
+                <constraint firstItem="Qgi-od-Tg1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Elg-aV-qhN"/>
+                <constraint firstItem="Qgi-od-Tg1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="gct-l2-O8m"/>
+                <constraint firstAttribute="bottom" secondItem="ks1-tO-xSW" secondAttribute="bottom" id="h5T-3S-7QQ"/>
+                <constraint firstAttribute="trailing" secondItem="ks1-tO-xSW" secondAttribute="trailing" id="iXs-CB-mGq"/>
+                <constraint firstItem="ks1-tO-xSW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="iZe-JP-Smc"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="130.5" y="312.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="前进" width="32" height="32"/>
+        <image name="后退" width="32" height="32"/>
+    </resources>
+</document>

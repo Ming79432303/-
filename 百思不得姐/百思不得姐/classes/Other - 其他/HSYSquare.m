@@ -7,24 +7,43 @@
 //
 
 #import "HSYSquare.h"
+#import <UIButton+WebCache.h>
 
 @implementation HSYSquare
-- (void)layoutSubviews{
-    [super layoutSubviews];
-    self.imageView.y = Margin;
-    self.imageView.centerX = self.width * 0.5;
-    self.imageView.height = self.height - 2 * Margin;
-    self.imageView.width = self.imageView.height;
+
+- (instancetype)initWithFrame:(CGRect)frame{
     
-    self.titleLabel.y = self.imageView.y + self.imageView.height;
-    self.titleLabel.width = self.width;
-    self.titleLabel.height = self.height - self.imageView.height;
-    self.titleLabel.textAlignment  = NSTextAlignmentCenter;
-    self.titleLabel.x = 0;
-    
-    
-    
+    if (self = [super initWithFrame:frame]) {
+        self.backgroundColor = [UIColor whiteColor];
+        self.titleLabel.font = [UIFont systemFontOfSize:15];
+        [self setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
+         self.titleLabel.textAlignment  = NSTextAlignmentCenter;
+    }
+    return self;
 }
 
+- (void)layoutSubviews{
+    [super layoutSubviews];
+    self.imageView.y = 0.1 * self.height;
+    self.imageView.height = self.height * 0.5;
+    self.imageView.width = self.imageView.height;
+    self.imageView.centerX = self.width * 0.5;
+    
+    self.titleLabel.y = self.imageView.bottom;
+     self.titleLabel.x = 0;
+    self.titleLabel.width = self.width;
+    self.titleLabel.height = self.height - self.titleLabel.y;
+   
+   
+
+}
+- (void)setSquare:(HSYMeSquare *)square{
+    _square = square;
+    
+    [self sd_setImageWithURL:[NSURL URLWithString:square.icon] forState:UIControlStateNormal placeholderImage:[UIImage imageNamed:@"setup-head-default"]];
+    [self setTitle:square.name forState:UIControlStateNormal];
+
+    
+}
 
 @end

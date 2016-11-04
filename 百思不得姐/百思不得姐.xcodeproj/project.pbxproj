@@ -36,6 +36,8 @@
 		482B94F91DCB1C4600516988 /* HSYLogoinRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 482B94F71DCB1C4600516988 /* HSYLogoinRegisterController.m */; };
 		482B94FA1DCB1C4600516988 /* HSYLogoinRegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 482B94F81DCB1C4600516988 /* HSYLogoinRegisterController.xib */; };
 		482B94FD1DCB251700516988 /* HSYLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 482B94FC1DCB251700516988 /* HSYLoginButton.m */; };
+		48775B1A1DCC1BC2002BF117 /* HSYWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48775B181DCC1BC2002BF117 /* HSYWebController.m */; };
+		48775B1B1DCC1BC2002BF117 /* HSYWebController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48775B191DCC1BC2002BF117 /* HSYWebController.xib */; };
 		EB54AACEEAEEAE5AA864FDF8 /* libPods-百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9338D86D9B4DE07C01887FB8 /* libPods-百思不得姐.a */; };
 /* End PBXBuildFile section */
 
@@ -115,6 +117,9 @@
 		482B94F81DCB1C4600516988 /* HSYLogoinRegisterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSYLogoinRegisterController.xib; sourceTree = "<group>"; };
 		482B94FB1DCB251700516988 /* HSYLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSYLoginButton.h; sourceTree = "<group>"; };
 		482B94FC1DCB251700516988 /* HSYLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSYLoginButton.m; sourceTree = "<group>"; };
+		48775B171DCC1BC2002BF117 /* HSYWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSYWebController.h; sourceTree = "<group>"; };
+		48775B181DCC1BC2002BF117 /* HSYWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSYWebController.m; sourceTree = "<group>"; };
+		48775B191DCC1BC2002BF117 /* HSYWebController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSYWebController.xib; sourceTree = "<group>"; };
 		9338D86D9B4DE07C01887FB8 /* libPods-百思不得姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C357F3D9EE7D7F1FA8C412EB /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
 		E3ABEAFFBC9AA9D918049D16 /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
@@ -306,6 +311,9 @@
 				4820537A1DC96F8100277F7B /* HSYMeController.m */,
 				482053951DC98A7C00277F7B /* HSYSetingController.h */,
 				482053961DC98A7C00277F7B /* HSYSetingController.m */,
+				48775B171DCC1BC2002BF117 /* HSYWebController.h */,
+				48775B181DCC1BC2002BF117 /* HSYWebController.m */,
+				48775B191DCC1BC2002BF117 /* HSYWebController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -566,6 +574,7 @@
 				4820533A1DC969BC00277F7B /* LaunchScreen.storyboard in Resources */,
 				482B94FA1DCB1C4600516988 /* HSYLogoinRegisterController.xib in Resources */,
 				482053371DC969BC00277F7B /* Assets.xcassets in Resources */,
+				48775B1B1DCC1BC2002BF117 /* HSYWebController.xib in Resources */,
 				482B94F51DCB181100516988 /* HSYFollowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -719,6 +728,7 @@
 				482B94F91DCB1C4600516988 /* HSYLogoinRegisterController.m in Sources */,
 				482B94FD1DCB251700516988 /* HSYLoginButton.m in Sources */,
 				4820537B1DC96F8100277F7B /* HSYMeController.m in Sources */,
+				48775B1A1DCC1BC2002BF117 /* HSYWebController.m in Sources */,
 				3A0BF1FC1DCB5253006CF22C /* UITextField+HSYTextField.m in Sources */,
 				3A0BF1F91DCB51E0006CF22C /* HSYTextField.m in Sources */,
 				3A0BF2081DCB67E9006CF22C /* HSYMeSquare.m in Sources */,

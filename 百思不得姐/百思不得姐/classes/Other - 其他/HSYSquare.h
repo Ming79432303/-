@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "HSYMeSquare.h"
 @interface HSYSquare : UIButton
-
+@property (nonatomic ,strong) HSYMeSquare *square;
 @end

@@ -13,6 +13,8 @@
 #import <MJExtension.h>
 #import "HSYMeSquare.h"
 #import "HSYSquare.h"
+#import "HSYWebController.h"
+#import <SafariServices/SafariServices.h>
 
 @implementation HSYFootVIew
 
@@ -57,15 +59,14 @@
         CGFloat butnX = loc * butnW;
         CGFloat butnY = lin * butnH;
         butn.frame = CGRectMake(butnX, butnY, butnW, butnH);
+        [butn setBackgroundImage:[UIImage imageNamed:@"mainCellBackground"] forState:UIControlStateNormal];
         
         //butn.backgroundColor = RandomColor;
         [self addSubview:butn];
  
         
-        
-        [butn sd_setImageWithURL:[NSURL URLWithString:model.icon] forState:UIControlStateNormal placeholderImage:[UIImage imageNamed:@"setup-head-default"]];
-        [butn setTitle:model.name forState:UIControlStateNormal];
-        
+        butn.square = model;
+        [butn addTarget:self action:@selector(didClick:) forControlEvents:UIControlEventTouchUpInside];
         
     }
 
@@ -76,4 +77,31 @@
     
     
 }
+
+- (void)didClick:(HSYSquare *)butn{
+    NSLog(@"%@",butn.square.url);
+    NSString *url = butn.square.url;
+    if ([url hasPrefix:@"http"]) {
+        //用web跳转
+        HSYWebController *web = [[HSYWebController alloc] init];
+          web.url = url;
+        web.title = butn.square.name;
+        UITabBarController *tabbar = (UITabBarController *)self.window.rootViewController;
+        UINavigationController *selectController = tabbar.selectedViewController;
+        [selectController pushViewController:web animated:YES];
+//        SFSafariViewController *safari = [[SFSafariViewController alloc] initWithURL:[NSURL URLWithString:url]];
+//        [selectController presentViewController:safari animated:YES completion:nil];
+      
+        
+    }else if ([url hasPrefix:@"mod"]){
+        //跳转控制器
+        
+    }
+    
+    
+    
+    
+}
+
+
 @end
