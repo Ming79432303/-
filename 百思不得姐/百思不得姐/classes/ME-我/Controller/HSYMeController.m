@@ -31,7 +31,7 @@
     self.tableView.sectionFooterHeight = Margin;
     self.tableView.sectionHeaderHeight = 0;
     self.tableView.contentInset = UIEdgeInsetsMake(Margin - 36, 0, 0, 0);
-    HSYFootVIew *footView= [[HSYFootVIew alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    HSYFootVIew *footView= [[HSYFootVIew alloc] init];
     footView.backgroundColor  = [UIColor redColor];
    
     self.tableView.tableFooterView = footView;

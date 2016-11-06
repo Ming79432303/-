@@ -16,6 +16,15 @@
 		3A0BF2051DCB5F92006CF22C /* HSYFootVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BF2041DCB5F92006CF22C /* HSYFootVIew.m */; };
 		3A0BF2081DCB67E9006CF22C /* HSYMeSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BF2071DCB67E9006CF22C /* HSYMeSquare.m */; };
 		3A0BF20B1DCB6EA1006CF22C /* HSYSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BF20A1DCB6EA1006CF22C /* HSYSquare.m */; };
+		3A243F2C1DCD8061001B73A1 /* HSYClearCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A243F2B1DCD8061001B73A1 /* HSYClearCell.m */; };
+		3A243F321DCD9135001B73A1 /* NSString+HSYFileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A243F311DCD9135001B73A1 /* NSString+HSYFileSize.m */; };
+		3A243F351DCDAF96001B73A1 /* HSYOtherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A243F341DCDAF96001B73A1 /* HSYOtherCell.m */; };
+		3A243F381DCDBA8A001B73A1 /* HSYAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A243F371DCDBA8A001B73A1 /* HSYAllViewController.m */; };
+		3A243F3B1DCDBA97001B73A1 /* HSYVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A243F3A1DCDBA97001B73A1 /* HSYVideoViewController.m */; };
+		3A243F3E1DCDBAA7001B73A1 /* HSYVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A243F3D1DCDBAA7001B73A1 /* HSYVoiceViewController.m */; };
+		3A243F411DCDBABE001B73A1 /* HSYPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A243F401DCDBABE001B73A1 /* HSYPictureViewController.m */; };
+		3A243F441DCDBACF001B73A1 /* HSYWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A243F431DCDBACF001B73A1 /* HSYWordViewController.m */; };
+		3A243F471DCDC39F001B73A1 /* HSYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A243F461DCDC39F001B73A1 /* HSYButton.m */; };
 		4820532C1DC969BC00277F7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820532B1DC969BC00277F7B /* main.m */; };
 		482053371DC969BC00277F7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482053361DC969BC00277F7B /* Assets.xcassets */; };
 		4820533A1DC969BC00277F7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482053381DC969BC00277F7B /* LaunchScreen.storyboard */; };
@@ -75,6 +84,24 @@
 		3A0BF2071DCB67E9006CF22C /* HSYMeSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSYMeSquare.m; path = "百思不得姐/classes/Other - 其他/HSYMeSquare.m"; sourceTree = SOURCE_ROOT; };
 		3A0BF2091DCB6EA1006CF22C /* HSYSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSYSquare.h; path = "百思不得姐/classes/Other - 其他/HSYSquare.h"; sourceTree = SOURCE_ROOT; };
 		3A0BF20A1DCB6EA1006CF22C /* HSYSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSYSquare.m; path = "百思不得姐/classes/Other - 其他/HSYSquare.m"; sourceTree = SOURCE_ROOT; };
+		3A243F2A1DCD8061001B73A1 /* HSYClearCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSYClearCell.h; path = "百思不得姐/classes/Other - 其他/HSYClearCell.h"; sourceTree = SOURCE_ROOT; };
+		3A243F2B1DCD8061001B73A1 /* HSYClearCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSYClearCell.m; path = "百思不得姐/classes/Other - 其他/HSYClearCell.m"; sourceTree = SOURCE_ROOT; };
+		3A243F301DCD9135001B73A1 /* NSString+HSYFileSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HSYFileSize.h"; sourceTree = "<group>"; };
+		3A243F311DCD9135001B73A1 /* NSString+HSYFileSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HSYFileSize.m"; sourceTree = "<group>"; };
+		3A243F331DCDAF96001B73A1 /* HSYOtherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSYOtherCell.h; path = "百思不得姐/classes/Other - 其他/Category/HSYOtherCell.h"; sourceTree = SOURCE_ROOT; };
+		3A243F341DCDAF96001B73A1 /* HSYOtherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSYOtherCell.m; path = "百思不得姐/classes/Other - 其他/Category/HSYOtherCell.m"; sourceTree = SOURCE_ROOT; };
+		3A243F361DCDBA8A001B73A1 /* HSYAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSYAllViewController.h; sourceTree = "<group>"; };
+		3A243F371DCDBA8A001B73A1 /* HSYAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSYAllViewController.m; sourceTree = "<group>"; };
+		3A243F391DCDBA97001B73A1 /* HSYVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSYVideoViewController.h; sourceTree = "<group>"; };
+		3A243F3A1DCDBA97001B73A1 /* HSYVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSYVideoViewController.m; sourceTree = "<group>"; };
+		3A243F3C1DCDBAA7001B73A1 /* HSYVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSYVoiceViewController.h; sourceTree = "<group>"; };
+		3A243F3D1DCDBAA7001B73A1 /* HSYVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSYVoiceViewController.m; sourceTree = "<group>"; };
+		3A243F3F1DCDBABE001B73A1 /* HSYPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSYPictureViewController.h; sourceTree = "<group>"; };
+		3A243F401DCDBABE001B73A1 /* HSYPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSYPictureViewController.m; sourceTree = "<group>"; };
+		3A243F421DCDBACF001B73A1 /* HSYWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSYWordViewController.h; sourceTree = "<group>"; };
+		3A243F431DCDBACF001B73A1 /* HSYWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSYWordViewController.m; sourceTree = "<group>"; };
+		3A243F451DCDC39F001B73A1 /* HSYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSYButton.h; path = "百思不得姐/classes/Essence - 精华/Controller/HSYButton.h"; sourceTree = SOURCE_ROOT; };
+		3A243F461DCDC39F001B73A1 /* HSYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSYButton.m; path = "百思不得姐/classes/Essence - 精华/Controller/HSYButton.m"; sourceTree = SOURCE_ROOT; };
 		3A9F6B23C1A1E6C9282230E9 /* libPods-百思不得姐Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3B5D726E5D31980738C322 /* Pods-百思不得姐Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐Tests/Pods-百思不得姐Tests.release.xcconfig"; sourceTree = "<group>"; };
 		482053271DC969BC00277F7B /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -242,6 +269,16 @@
 			children = (
 				482053731DC96F4900277F7B /* HSYEssenceController.h */,
 				482053741DC96F4900277F7B /* HSYEssenceController.m */,
+				3A243F361DCDBA8A001B73A1 /* HSYAllViewController.h */,
+				3A243F371DCDBA8A001B73A1 /* HSYAllViewController.m */,
+				3A243F391DCDBA97001B73A1 /* HSYVideoViewController.h */,
+				3A243F3A1DCDBA97001B73A1 /* HSYVideoViewController.m */,
+				3A243F3C1DCDBAA7001B73A1 /* HSYVoiceViewController.h */,
+				3A243F3D1DCDBAA7001B73A1 /* HSYVoiceViewController.m */,
+				3A243F3F1DCDBABE001B73A1 /* HSYPictureViewController.h */,
+				3A243F401DCDBABE001B73A1 /* HSYPictureViewController.m */,
+				3A243F421DCDBACF001B73A1 /* HSYWordViewController.h */,
+				3A243F431DCDBACF001B73A1 /* HSYWordViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -256,6 +293,8 @@
 		482053611DC96DDB00277F7B /* VIew */ = {
 			isa = PBXGroup;
 			children = (
+				3A243F451DCDC39F001B73A1 /* HSYButton.h */,
+				3A243F461DCDC39F001B73A1 /* HSYButton.m */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -336,6 +375,10 @@
 				3A0BF2041DCB5F92006CF22C /* HSYFootVIew.m */,
 				3A0BF2091DCB6EA1006CF22C /* HSYSquare.h */,
 				3A0BF20A1DCB6EA1006CF22C /* HSYSquare.m */,
+				3A243F2A1DCD8061001B73A1 /* HSYClearCell.h */,
+				3A243F2B1DCD8061001B73A1 /* HSYClearCell.m */,
+				3A243F331DCDAF96001B73A1 /* HSYOtherCell.h */,
+				3A243F341DCDAF96001B73A1 /* HSYOtherCell.m */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -398,6 +441,8 @@
 				482053921DC973F200277F7B /* UIBarButtonItem+HSYExtension.m */,
 				3A0BF1FA1DCB5253006CF22C /* UITextField+HSYTextField.h */,
 				3A0BF1FB1DCB5253006CF22C /* UITextField+HSYTextField.m */,
+				3A243F301DCD9135001B73A1 /* NSString+HSYFileSize.h */,
+				3A243F311DCD9135001B73A1 /* NSString+HSYFileSize.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -724,21 +769,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				482053841DC96FCF00277F7B /* HSYNavigationController.m in Sources */,
+				3A243F351DCDAF96001B73A1 /* HSYOtherCell.m in Sources */,
 				3A0BF2051DCB5F92006CF22C /* HSYFootVIew.m in Sources */,
 				482B94F91DCB1C4600516988 /* HSYLogoinRegisterController.m in Sources */,
+				3A243F321DCD9135001B73A1 /* NSString+HSYFileSize.m in Sources */,
+				3A243F3B1DCDBA97001B73A1 /* HSYVideoViewController.m in Sources */,
+				3A243F381DCDBA8A001B73A1 /* HSYAllViewController.m in Sources */,
 				482B94FD1DCB251700516988 /* HSYLoginButton.m in Sources */,
 				4820537B1DC96F8100277F7B /* HSYMeController.m in Sources */,
 				48775B1A1DCC1BC2002BF117 /* HSYWebController.m in Sources */,
 				3A0BF1FC1DCB5253006CF22C /* UITextField+HSYTextField.m in Sources */,
+				3A243F411DCDBABE001B73A1 /* HSYPictureViewController.m in Sources */,
 				3A0BF1F91DCB51E0006CF22C /* HSYTextField.m in Sources */,
 				3A0BF2081DCB67E9006CF22C /* HSYMeSquare.m in Sources */,
+				3A243F471DCDC39F001B73A1 /* HSYButton.m in Sources */,
 				4820538A1DC9719A00277F7B /* AppDelegate.m in Sources */,
 				3A0BF2021DCB5C20006CF22C /* HSYTCommenCons.m in Sources */,
 				4820532C1DC969BC00277F7B /* main.m in Sources */,
+				3A243F3E1DCDBAA7001B73A1 /* HSYVoiceViewController.m in Sources */,
 				482053811DC96FB300277F7B /* HSYTabBarController.m in Sources */,
 				3A0BF20B1DCB6EA1006CF22C /* HSYSquare.m in Sources */,
 				482053931DC973F200277F7B /* UIBarButtonItem+HSYExtension.m in Sources */,
+				3A243F2C1DCD8061001B73A1 /* HSYClearCell.m in Sources */,
 				482053971DC98A7C00277F7B /* HSYSetingController.m in Sources */,
+				3A243F441DCDBACF001B73A1 /* HSYWordViewController.m in Sources */,
 				482053781DC96F6C00277F7B /* HSYFollowController.m in Sources */,
 				4820537E1DC96F9C00277F7B /* HSYNewController.m in Sources */,
 				482053871DC96FEE00277F7B /* HSYTabBar.m in Sources */,

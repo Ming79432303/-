@@ -18,6 +18,7 @@
 #import "UIView+Frame.h"
 #import "UIBarButtonItem+HSYExtension.h"
 #import "HSYTCommenCons.h"
+#import "NSString+HSYFileSize.h"
 /*** 日志 ***/
 #ifdef DEBUG
 #define LGLog(...) NSLog(__VA_ARGS__)
