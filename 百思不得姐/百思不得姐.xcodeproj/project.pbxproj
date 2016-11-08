@@ -16,6 +16,10 @@
 		3A0BF2051DCB5F92006CF22C /* HSYFootVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BF2041DCB5F92006CF22C /* HSYFootVIew.m */; };
 		3A0BF2081DCB67E9006CF22C /* HSYMeSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BF2071DCB67E9006CF22C /* HSYMeSquare.m */; };
 		3A0BF20B1DCB6EA1006CF22C /* HSYSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BF20A1DCB6EA1006CF22C /* HSYSquare.m */; };
+		3A1911DA1DD1907B00DF2723 /* NSCalendar+Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1911D71DD1907B00DF2723 /* NSCalendar+Calendar.m */; };
+		3A1911DB1DD1907B00DF2723 /* NSDate+myDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1911D91DD1907B00DF2723 /* NSDate+myDate.m */; };
+		3A1911E71DD199ED00DF2723 /* HSYBdjcomments.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1911E61DD199ED00DF2723 /* HSYBdjcomments.m */; };
+		3A1911EA1DD19A0A00DF2723 /* HSYBdjUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1911E91DD19A0A00DF2723 /* HSYBdjUser.m */; };
 		3A243F2C1DCD8061001B73A1 /* HSYClearCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A243F2B1DCD8061001B73A1 /* HSYClearCell.m */; };
 		3A243F321DCD9135001B73A1 /* NSString+HSYFileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A243F311DCD9135001B73A1 /* NSString+HSYFileSize.m */; };
 		3A243F351DCDAF96001B73A1 /* HSYOtherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A243F341DCDAF96001B73A1 /* HSYOtherCell.m */; };
@@ -90,6 +94,14 @@
 		3A0BF2071DCB67E9006CF22C /* HSYMeSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSYMeSquare.m; path = "百思不得姐/classes/Other - 其他/HSYMeSquare.m"; sourceTree = SOURCE_ROOT; };
 		3A0BF2091DCB6EA1006CF22C /* HSYSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSYSquare.h; path = "百思不得姐/classes/Other - 其他/HSYSquare.h"; sourceTree = SOURCE_ROOT; };
 		3A0BF20A1DCB6EA1006CF22C /* HSYSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSYSquare.m; path = "百思不得姐/classes/Other - 其他/HSYSquare.m"; sourceTree = SOURCE_ROOT; };
+		3A1911D61DD1907B00DF2723 /* NSCalendar+Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Calendar.h"; sourceTree = "<group>"; };
+		3A1911D71DD1907B00DF2723 /* NSCalendar+Calendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Calendar.m"; sourceTree = "<group>"; };
+		3A1911D81DD1907B00DF2723 /* NSDate+myDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+myDate.h"; sourceTree = "<group>"; };
+		3A1911D91DD1907B00DF2723 /* NSDate+myDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+myDate.m"; sourceTree = "<group>"; };
+		3A1911E51DD199ED00DF2723 /* HSYBdjcomments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSYBdjcomments.h; path = "百思不得姐/classes/Essence - 精华/Controller/HSYBdjcomments.h"; sourceTree = SOURCE_ROOT; };
+		3A1911E61DD199ED00DF2723 /* HSYBdjcomments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSYBdjcomments.m; path = "百思不得姐/classes/Essence - 精华/Controller/HSYBdjcomments.m"; sourceTree = SOURCE_ROOT; };
+		3A1911E81DD19A0A00DF2723 /* HSYBdjUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSYBdjUser.h; path = "百思不得姐/classes/Essence - 精华/Controller/HSYBdjUser.h"; sourceTree = SOURCE_ROOT; };
+		3A1911E91DD19A0A00DF2723 /* HSYBdjUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSYBdjUser.m; path = "百思不得姐/classes/Essence - 精华/Controller/HSYBdjUser.m"; sourceTree = SOURCE_ROOT; };
 		3A243F2A1DCD8061001B73A1 /* HSYClearCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSYClearCell.h; path = "百思不得姐/classes/Other - 其他/HSYClearCell.h"; sourceTree = SOURCE_ROOT; };
 		3A243F2B1DCD8061001B73A1 /* HSYClearCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSYClearCell.m; path = "百思不得姐/classes/Other - 其他/HSYClearCell.m"; sourceTree = SOURCE_ROOT; };
 		3A243F301DCD9135001B73A1 /* NSString+HSYFileSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HSYFileSize.h"; sourceTree = "<group>"; };
@@ -303,8 +315,12 @@
 		482053601DC96DDB00277F7B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3A1911E51DD199ED00DF2723 /* HSYBdjcomments.h */,
+				3A1911E61DD199ED00DF2723 /* HSYBdjcomments.m */,
 				3AA883921DD04AEE002FCA8D /* HSYBdjList.h */,
 				3AA883931DD04AEE002FCA8D /* HSYBdjList.m */,
+				3A1911E81DD19A0A00DF2723 /* HSYBdjUser.h */,
+				3A1911E91DD19A0A00DF2723 /* HSYBdjUser.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -459,6 +475,10 @@
 		4820536F1DC96DDB00277F7B /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				3A1911D61DD1907B00DF2723 /* NSCalendar+Calendar.h */,
+				3A1911D71DD1907B00DF2723 /* NSCalendar+Calendar.m */,
+				3A1911D81DD1907B00DF2723 /* NSDate+myDate.h */,
+				3A1911D91DD1907B00DF2723 /* NSDate+myDate.m */,
 				4820538E1DC972C500277F7B /* UIView+Frame.h */,
 				4820538F1DC972C500277F7B /* UIView+Frame.m */,
 				482053911DC973F200277F7B /* UIBarButtonItem+HSYExtension.h */,
@@ -799,6 +819,7 @@
 			files = (
 				482053841DC96FCF00277F7B /* HSYNavigationController.m in Sources */,
 				3A243F351DCDAF96001B73A1 /* HSYOtherCell.m in Sources */,
+				3A1911EA1DD19A0A00DF2723 /* HSYBdjUser.m in Sources */,
 				3A0BF2051DCB5F92006CF22C /* HSYFootVIew.m in Sources */,
 				482B94F91DCB1C4600516988 /* HSYLogoinRegisterController.m in Sources */,
 				3A243F321DCD9135001B73A1 /* NSString+HSYFileSize.m in Sources */,
@@ -824,6 +845,7 @@
 				3A0BF20B1DCB6EA1006CF22C /* HSYSquare.m in Sources */,
 				3AA883911DD04681002FCA8D /* HSYRefreshHeader.m in Sources */,
 				482053931DC973F200277F7B /* UIBarButtonItem+HSYExtension.m in Sources */,
+				3A1911E71DD199ED00DF2723 /* HSYBdjcomments.m in Sources */,
 				3A243F2C1DCD8061001B73A1 /* HSYClearCell.m in Sources */,
 				482053971DC98A7C00277F7B /* HSYSetingController.m in Sources */,
 				3A243F441DCDBACF001B73A1 /* HSYWordViewController.m in Sources */,
@@ -831,6 +853,8 @@
 				4820537E1DC96F9C00277F7B /* HSYNewController.m in Sources */,
 				482053871DC96FEE00277F7B /* HSYTabBar.m in Sources */,
 				3A0BF1FF1DCB5B5B006CF22C /* HSYTableViewCell.m in Sources */,
+				3A1911DB1DD1907B00DF2723 /* NSDate+myDate.m in Sources */,
+				3A1911DA1DD1907B00DF2723 /* NSCalendar+Calendar.m in Sources */,
 				482053901DC972C500277F7B /* UIView+Frame.m in Sources */,
 				482053751DC96F4900277F7B /* HSYEssenceController.m in Sources */,
 			);

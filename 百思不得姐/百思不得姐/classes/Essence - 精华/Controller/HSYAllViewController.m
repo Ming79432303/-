@@ -69,6 +69,7 @@ static NSString *cellID = @"ID";
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     params[@"a"] = @"list";
     params[@"c"] = @"data";
+     params[@"type"] = @"1";
     [self.manager GET:Url parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, NSDictionary * _Nullable responseObject) {
         NSLog(@"%@",[NSThread currentThread]);
     
@@ -77,6 +78,13 @@ static NSString *cellID = @"ID";
         
       self.listArray = [HSYBdjList mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
       
+        for (int i = 0; i <self.listArray.count; i++) {
+            HSYBdjList *list = self.listArray[i];
+            if (list.top_cmt.count) {
+                NSLog(@"%d",i);
+            }
+        }
+        
         self.maxtime = responseObject[@"info"][@"maxtime"];
         
         [self.tableView.mj_header endRefreshing];
@@ -103,6 +111,7 @@ static NSString *cellID = @"ID";
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     params[@"a"] = @"list";
     params[@"c"] = @"data";
+     params[@"type"] = @"1";
     params[@"maxtime"] = self.maxtime;
   
     [self.manager GET:Url parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
@@ -110,6 +119,16 @@ static NSString *cellID = @"ID";
         [self.listArray addObjectsFromArray:[HSYBdjList mj_objectArrayWithKeyValuesArray:responseObject[@"list"]]];
         [self.tableView.mj_footer endRefreshing];
         [self.tableView reloadData];
+        
+        for (int i = 0; i <self.listArray.count; i++) {
+            HSYBdjList *list = self.listArray[i];
+            if (list.top_cmt.count) {
+                NSLog(@"%d",i);
+            }
+        }
+        [responseObject writeToFile:@"/Users/ming/Desktop/plist/bdj.plist" atomically:YES];
+
+        
         NSLog(@"请求成功");
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"请求失败");
