@@ -15,3 +15,4 @@ UIKIT_EXTERN CGFloat const minMargin;
 /** 通用的间距值 */
 UIKIT_EXTERN CGFloat const Margin;
 
+UIKIT_EXTERN NSString *Url;

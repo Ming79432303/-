@@ -19,6 +19,8 @@
 #import "UIBarButtonItem+HSYExtension.h"
 #import "HSYTCommenCons.h"
 #import "NSString+HSYFileSize.h"
+#import "HSYRefreshHeader.h"
+#import "HSYRefreshFooter.h"
 /*** 日志 ***/
 #ifdef DEBUG
 #define LGLog(...) NSLog(__VA_ARGS__)

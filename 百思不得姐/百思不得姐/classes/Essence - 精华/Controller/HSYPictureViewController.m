@@ -10,7 +10,8 @@
 
 @implementation HSYPictureViewController
 - (void)viewDidLoad{
-    self.view.backgroundColor = RandomColor;
+    self.view.backgroundColor = CommonBgColor;
+    self.tableView.contentInset = UIEdgeInsetsMake(64 + 25 + Margin, 0, 46, 0);
     [super viewDidLoad];
     
 }

@@ -9,3 +9,4 @@
 
  CGFloat const Margin = 10;
  CGFloat const minMargin = Margin * 0.5;
+NSString *Url = @"http://api.budejie.com/api/api_open.php";

@@ -33,7 +33,6 @@
     //最后是在控制器内部设置颜色
     //在碗面设置背景眼self.view.backgroundColor会调用viewDidLoad方法
        self.automaticallyAdjustsScrollViewInsets = NO;
-    self.view.backgroundColor = CommonBgColor;
     [self setNavItem];
     [self addChildviewControllerView];
     [self setScroview];
@@ -107,6 +106,7 @@
         [butn setTitle:titles[i] forState:UIControlStateNormal];
         [butn setBackgroundColor:[UIColor clearColor]];
         [butn setTitleColor:[UIColor redColor] forState:UIControlStateSelected];
+         [butn setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
         
         butn.frame = CGRectMake(butnX, butnY, butnW, butnH);
         
@@ -175,8 +175,9 @@
 - (void)addChildView{
      int index = _scroView.contentOffset.x / _scroView.width;
     UITableViewController  *vc = self.childViewControllers[index];
-    vc.view.frame = CGRectMake(index * _scroView.width, _scroView.y, _scroView.width, _scroView.height);
-    vc.tableView.contentInset = UIEdgeInsetsMake(64 + 25, 0, 46, 0);
+   
+  
+     vc.view.frame = CGRectMake(index * _scroView.width, _scroView.y, _scroView.width, _scroView.height);
     [_scroView addSubview:vc.view];
     
 
